@@ -6,7 +6,7 @@ const createTodo = async (req,res)=>{
   if (!task||!priority) {
     return res.send ({
         status : false,
-        massage : "Todo Not Created"
+        massage : "Todo Not Created , Give data Properly"
     })
   }
 const todo = new Todo({
@@ -16,7 +16,7 @@ const todo = new Todo({
  await todo.save()
  res.send ({
     status : true,
-    massage :"Todo Created"
+    massage :"Todo Created Successfully"
  })
 }
 
