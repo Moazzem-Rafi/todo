@@ -3,7 +3,7 @@ const Todo = require ("../models/todoModel")
 const createTodo = async (req,res)=>{
   const {task,status,priority} = req.body
 
-  if (!task||!priority) {
+  if (!task||!status||!priority) {
     return res.send ({
         status : false,
         massage : "Todo Not Created , Give data Properly"
