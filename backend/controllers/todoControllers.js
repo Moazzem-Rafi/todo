@@ -16,7 +16,7 @@ const todo = new Todo({
  await todo.save()
  res.send ({
     status : true,
-    massage :"Todo Created Successfully"
+    massage :"Todo Created Successfully!"
  })
 }
 
