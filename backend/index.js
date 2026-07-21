@@ -3,7 +3,7 @@ const express = require ('express')
 const app = express ()
 app.use(express.json())
 const mongoose = require('mongoose');
-const createTodo = require("./controllers/todoControllers");
+const createTodo = require("./controllers/createControllers");
 const deleteTodo = require("./controllers/deleteController");
 
 app.post('/create/todo',createTodo)

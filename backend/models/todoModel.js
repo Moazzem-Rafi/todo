@@ -8,8 +8,7 @@ task:{
 },
 status :{
     type : String,
-    enum : ["Pending","Active","deActive"],
-    default :'active'
+    enum : ["Pending","Active","deActive"]
 },
 priority:{
     type : String,
