@@ -16,7 +16,7 @@ app.delete("/deleteTodo/:id",deleteTodo)
     "mongodb+srv://moazzem:Pd%40ufLBz4csyA_2@cluster0.dzmv75i.mongodb.net/todo?appName=Cluster0",
   )
   .then(() => {
-    console.log("Database Connected");
+    console.log("Database Connected successdully!");
   }); 
 
 
